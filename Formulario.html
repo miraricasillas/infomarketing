@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularioa</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="../ItxuraPrincipal.css">
+</head>
+<body>
+    <header>
+        <h1>Formularioa</h1>
+    </header>
+    <nav>
+        <a href="Paginazerbitzuteknikoa.html" class="atzera">Atzera</a>
+        <a href="Registro.html" class="registro">Registo/Saioa hasi</a>
+    </nav>
+    <aside>
+
+    </aside>
+	<section>
+        <main>
+		<form action="" class="formulario" id="formulario">
+            <ul>
+			<!-- Grupo: Izena -->
+			<div class="formulario__grupo" id="grupo__usuario">
+				<label for="usuario" class="formulario__label">Izena</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario" id="usuario">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+
+			<!-- Grupo: Abizena -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Abizena</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="abizena" id="nombre">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+
+			<!-- Grupo: Helbidea -->
+			<div class="formulario__grupo" id="grupo__helbidea">
+				<label for="password" class="formulario__label">Helbidea</label>
+				<div class="formulario__grupo-input">
+					<input type="helbidea" class="formulario__input" name="helbidea" id="helbidea">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+
+			<!-- Grupo: Eraikina eta atea -->
+			<div class="formulario__grupo" id="grupo__eraikina eta atea">
+				<label for="password2" class="formulario__label">Eraikina eta atea</label>
+				<div class="formulario__grupo-input">
+					<input type="eraikina eta atea" class="formulario__input" name="eraikina eta atea" id="eraikina eta atea">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+
+            <!-- Grupo: posta-kodea-->
+			<div class="formulario__grupo" id="grupo__posta-kodea">
+				<label for="password2" class="formulario__label">Posta-kodea</label>
+				<div class="formulario__grupo-input">
+					<input type="posta-kodea" class="formulario__input" name="Posta-kodea" id="posta-kodea">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+
+            <!-- Grupo: Herria -->
+			<div class="formulario__grupo" id="grupo__herria">
+				<label for="password2" class="formulario__label">Herria</label>
+				<div class="formulario__grupo-input">
+					<input type="herria" class="formulario__input" name="herria" id="herria">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+
+			<!-- Grupo: Eguna eta ordua -->
+			<label for="aukerak" class="formulario__label">Ordua eta eguna:</label><br>
+                <select name="ordua eta eguna" id="aukerak">
+                    <option value="03/10 12:00">03/10 12:00</option>
+                    <option value="03/10 18:30">03/10 18:30</option>
+                    <option value="07/10 12:00">07/10 12:00</option>
+                    <option value="07/10 12:00">07/10 18:30</option>
+                    </select>
+
+			<!-- Grupo: Teléfono -->
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Telefonoa</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+			</div>
+            <br>
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formularioa ondo bidali da!</p>
+			</div>
+        </ul> 
+        </form>
+        </form>
+	</main>
+    </section>
+    <!--Gure informazioa gurekin kontaktatzeko-->
+    <footer>
+        <div class="Kontaktos">
+            <h2>Nola kontaktatu:</h2>
+            <h3>Sare Sosialak</h3>
+                <a href="http://gmail.com"><img src="../FOTOS/gmail.png" alt="gmail" width="40"></a>
+                <a href="http://instagram.com"><img src="../FOTOS/insta.png" alt="Instagram" width="40"></a>
+                <a href="http://Twitter.com"><img src="../FOTOS/twitter.png" alt="Twitter" width="40"></a>
+            <div class="alinearKontaktos">  
+                <p>Nortzuk gara?</p>
+                <p>Cookies</p> 
+                <p></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
